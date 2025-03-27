@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NameActivity">
+
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/nameReasonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/nameReasonInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the meaning or reason for the name"
+        android:layout_marginBottom="24dp"
+        android:inputType="textMultiLine"
+        android:minLines="2"/>
+
+    <TextView
+        android:id="@+id/alternativeNamesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/altName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alternative Name 1"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/altName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alternative Name 2"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/altName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alternative Name 3"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Names"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return"/>
+
+</LinearLayout>
